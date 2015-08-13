@@ -30,6 +30,8 @@
 		BB3CB5FA1B7B4A8E00262F1E /* NSMutableArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5F71B7B4A8E00262F1E /* NSMutableArray+JSON.m */; };
 		BB3CB5FB1B7B4A8E00262F1E /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5F91B7B4A8E00262F1E /* NSObject+JSON.m */; };
 		BBD6A7EE1B7C1A8F0024EA18 /* BaseBusinessWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD6A7ED1B7C1A8F0024EA18 /* BaseBusinessWrapper.m */; };
+		BBD6A7F51B7C260D0024EA18 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD6A7F31B7C260D0024EA18 /* 1.png */; };
+		BBD6A7F61B7C260D0024EA18 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD6A7F41B7C260D0024EA18 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		BB3CB5F91B7B4A8E00262F1E /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
 		BBD6A7EC1B7C1A8F0024EA18 /* BaseBusinessWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBusinessWrapper.h; sourceTree = "<group>"; };
 		BBD6A7ED1B7C1A8F0024EA18 /* BaseBusinessWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBusinessWrapper.m; sourceTree = "<group>"; };
+		BBD6A7F31B7C260D0024EA18 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BBD6A7F41B7C260D0024EA18 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				BB3CB5C21B7B2CFB00262F1E /* network */,
 				BB3CB5A91B7B2C9000262F1E /* Images.xcassets */,
 				BB3CB5AB1B7B2C9000262F1E /* LaunchScreen.xib */,
+				BBD6A7F31B7C260D0024EA18 /* 1.png */,
+				BBD6A7F41B7C260D0024EA18 /* 2.png */,
 				BB3CB59C1B7B2C9000262F1E /* Supporting Files */,
 			);
 			path = PisNetwork;
@@ -328,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3CB5A81B7B2C9000262F1E /* Main.storyboard in Resources */,
+				BBD6A7F51B7C260D0024EA18 /* 1.png in Resources */,
+				BBD6A7F61B7C260D0024EA18 /* 2.png in Resources */,
 				BB3CB5AD1B7B2C9000262F1E /* LaunchScreen.xib in Resources */,
 				BB3CB5AA1B7B2C9000262F1E /* Images.xcassets in Resources */,
 			);
