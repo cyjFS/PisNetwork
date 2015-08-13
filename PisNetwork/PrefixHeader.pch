@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  PisNetwork
+//
+//  Created by newegg on 15/8/12.
+//  Copyright (c) 2015年 newegg. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import "NSMutableArray+JSON.h"
+#import "NSObject+JSON.h"
+#import <UIKit/UIKit.h>
+#import "ServiceClient.h"
+#endif

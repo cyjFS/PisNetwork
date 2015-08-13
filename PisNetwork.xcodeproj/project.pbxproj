@@ -14,6 +14,22 @@
 		BB3CB5AA1B7B2C9000262F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3CB5A91B7B2C9000262F1E /* Images.xcassets */; };
 		BB3CB5AD1B7B2C9000262F1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3CB5AB1B7B2C9000262F1E /* LaunchScreen.xib */; };
 		BB3CB5B91B7B2C9000262F1E /* PisNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5B81B7B2C9000262F1E /* PisNetworkTests.m */; };
+		BB3CB5D11B7B2E3A00262F1E /* Attrs.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5C41B7B2E3A00262F1E /* Attrs.m */; };
+		BB3CB5D21B7B2E3A00262F1E /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5C91B7B2E3A00262F1E /* Author.m */; };
+		BB3CB5D31B7B2E3A00262F1E /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5CA1B7B2E3A00262F1E /* BaseClass.m */; };
+		BB3CB5D41B7B2E3A00262F1E /* Musics.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5CD1B7B2E3A00262F1E /* Musics.m */; };
+		BB3CB5D51B7B2E3A00262F1E /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5CE1B7B2E3A00262F1E /* Rating.m */; };
+		BB3CB5D61B7B2E3A00262F1E /* Tags.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5D01B7B2E3A00262F1E /* Tags.m */; };
+		BB3CB5E11B7B3B1F00262F1E /* ServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5DE1B7B3B1F00262F1E /* ServiceClient.m */; };
+		BB3CB5E21B7B3B1F00262F1E /* ServiceResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5E01B7B3B1F00262F1E /* ServiceResult.m */; };
+		BB3CB5E61B7B3B8500262F1E /* NetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5E51B7B3B8500262F1E /* NetworkConfiguration.m */; };
+		BB3CB5EE1B7B3B9E00262F1E /* DefaultServiceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5E91B7B3B9E00262F1E /* DefaultServiceLoader.m */; };
+		BB3CB5EF1B7B3B9E00262F1E /* ServiceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5EB1B7B3B9E00262F1E /* ServiceLoader.m */; };
+		BB3CB5F01B7B3B9E00262F1E /* ServiceLoaderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5ED1B7B3B9E00262F1E /* ServiceLoaderUtil.m */; };
+		BB3CB5F41B7B4A4100262F1E /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5F31B7B4A4100262F1E /* NSString+Utils.m */; };
+		BB3CB5FA1B7B4A8E00262F1E /* NSMutableArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5F71B7B4A8E00262F1E /* NSMutableArray+JSON.m */; };
+		BB3CB5FB1B7B4A8E00262F1E /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3CB5F91B7B4A8E00262F1E /* NSObject+JSON.m */; };
+		BBD6A7EE1B7C1A8F0024EA18 /* BaseBusinessWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD6A7ED1B7C1A8F0024EA18 /* BaseBusinessWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,42 @@
 		BB3CB5B21B7B2C9000262F1E /* PisNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PisNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3CB5B71B7B2C9000262F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3CB5B81B7B2C9000262F1E /* PisNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PisNetworkTests.m; sourceTree = "<group>"; };
+		BB3CB5C41B7B2E3A00262F1E /* Attrs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attrs.m; sourceTree = "<group>"; };
+		BB3CB5C51B7B2E3A00262F1E /* Tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tags.h; sourceTree = "<group>"; };
+		BB3CB5C61B7B2E3A00262F1E /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		BB3CB5C71B7B2E3A00262F1E /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		BB3CB5C81B7B2E3A00262F1E /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		BB3CB5C91B7B2E3A00262F1E /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		BB3CB5CA1B7B2E3A00262F1E /* BaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClass.m; sourceTree = "<group>"; };
+		BB3CB5CB1B7B2E3A00262F1E /* Attrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attrs.h; sourceTree = "<group>"; };
+		BB3CB5CC1B7B2E3A00262F1E /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		BB3CB5CD1B7B2E3A00262F1E /* Musics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Musics.m; sourceTree = "<group>"; };
+		BB3CB5CE1B7B2E3A00262F1E /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		BB3CB5CF1B7B2E3A00262F1E /* Musics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Musics.h; sourceTree = "<group>"; };
+		BB3CB5D01B7B2E3A00262F1E /* Tags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tags.m; sourceTree = "<group>"; };
+		BB3CB5D81B7B2F0B00262F1E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BB3CB5DD1B7B3B1F00262F1E /* ServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceClient.h; sourceTree = "<group>"; };
+		BB3CB5DE1B7B3B1F00262F1E /* ServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceClient.m; sourceTree = "<group>"; };
+		BB3CB5DF1B7B3B1F00262F1E /* ServiceResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceResult.h; sourceTree = "<group>"; };
+		BB3CB5E01B7B3B1F00262F1E /* ServiceResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceResult.m; sourceTree = "<group>"; };
+		BB3CB5E31B7B3B8500262F1E /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		BB3CB5E41B7B3B8500262F1E /* NetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfiguration.h; sourceTree = "<group>"; };
+		BB3CB5E51B7B3B8500262F1E /* NetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfiguration.m; sourceTree = "<group>"; };
+		BB3CB5E81B7B3B9E00262F1E /* DefaultServiceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultServiceLoader.h; sourceTree = "<group>"; };
+		BB3CB5E91B7B3B9E00262F1E /* DefaultServiceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultServiceLoader.m; sourceTree = "<group>"; };
+		BB3CB5EA1B7B3B9E00262F1E /* ServiceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLoader.h; sourceTree = "<group>"; };
+		BB3CB5EB1B7B3B9E00262F1E /* ServiceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLoader.m; sourceTree = "<group>"; };
+		BB3CB5EC1B7B3B9E00262F1E /* ServiceLoaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLoaderUtil.h; sourceTree = "<group>"; };
+		BB3CB5ED1B7B3B9E00262F1E /* ServiceLoaderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLoaderUtil.m; sourceTree = "<group>"; };
+		BB3CB5F11B7B3BC400262F1E /* RequestBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestBuilder.h; sourceTree = "<group>"; };
+		BB3CB5F21B7B4A4100262F1E /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		BB3CB5F31B7B4A4100262F1E /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		BB3CB5F61B7B4A8E00262F1E /* NSMutableArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JSON.h"; sourceTree = "<group>"; };
+		BB3CB5F71B7B4A8E00262F1E /* NSMutableArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+JSON.m"; sourceTree = "<group>"; };
+		BB3CB5F81B7B4A8E00262F1E /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		BB3CB5F91B7B4A8E00262F1E /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		BBD6A7EC1B7C1A8F0024EA18 /* BaseBusinessWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBusinessWrapper.h; sourceTree = "<group>"; };
+		BBD6A7ED1B7C1A8F0024EA18 /* BaseBusinessWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBusinessWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +138,8 @@
 				BB3CB5A31B7B2C9000262F1E /* ViewController.h */,
 				BB3CB5A41B7B2C9000262F1E /* ViewController.m */,
 				BB3CB5A61B7B2C9000262F1E /* Main.storyboard */,
+				BB3CB5C31B7B2DD200262F1E /* model */,
+				BB3CB5C21B7B2CFB00262F1E /* network */,
 				BB3CB5A91B7B2C9000262F1E /* Images.xcassets */,
 				BB3CB5AB1B7B2C9000262F1E /* LaunchScreen.xib */,
 				BB3CB59C1B7B2C9000262F1E /* Supporting Files */,
@@ -96,6 +150,7 @@
 		BB3CB59C1B7B2C9000262F1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB3CB5D81B7B2F0B00262F1E /* PrefixHeader.pch */,
 				BB3CB59D1B7B2C9000262F1E /* Info.plist */,
 				BB3CB59E1B7B2C9000262F1E /* main.m */,
 			);
@@ -117,6 +172,79 @@
 				BB3CB5B71B7B2C9000262F1E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB3CB5C21B7B2CFB00262F1E /* network */ = {
+			isa = PBXGroup;
+			children = (
+				BBD6A7EC1B7C1A8F0024EA18 /* BaseBusinessWrapper.h */,
+				BBD6A7ED1B7C1A8F0024EA18 /* BaseBusinessWrapper.m */,
+				BB3CB5E41B7B3B8500262F1E /* NetworkConfiguration.h */,
+				BB3CB5E51B7B3B8500262F1E /* NetworkConfiguration.m */,
+				BB3CB5F11B7B3BC400262F1E /* RequestBuilder.h */,
+				BB3CB5E31B7B3B8500262F1E /* Consts.h */,
+				BB3CB5DC1B7B3A4D00262F1E /* client */,
+				BB3CB5E71B7B3B9E00262F1E /* Loader */,
+				BB3CB5F51B7B4A8E00262F1E /* JSON */,
+				BB3CB5F21B7B4A4100262F1E /* NSString+Utils.h */,
+				BB3CB5F31B7B4A4100262F1E /* NSString+Utils.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		BB3CB5C31B7B2DD200262F1E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CB5CF1B7B2E3A00262F1E /* Musics.h */,
+				BB3CB5CD1B7B2E3A00262F1E /* Musics.m */,
+				BB3CB5C61B7B2E3A00262F1E /* Author.h */,
+				BB3CB5C91B7B2E3A00262F1E /* Author.m */,
+				BB3CB5C71B7B2E3A00262F1E /* Rating.h */,
+				BB3CB5CE1B7B2E3A00262F1E /* Rating.m */,
+				BB3CB5CB1B7B2E3A00262F1E /* Attrs.h */,
+				BB3CB5C41B7B2E3A00262F1E /* Attrs.m */,
+				BB3CB5C51B7B2E3A00262F1E /* Tags.h */,
+				BB3CB5D01B7B2E3A00262F1E /* Tags.m */,
+				BB3CB5CC1B7B2E3A00262F1E /* BaseClass.h */,
+				BB3CB5CA1B7B2E3A00262F1E /* BaseClass.m */,
+				BB3CB5C81B7B2E3A00262F1E /* DataModels.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BB3CB5DC1B7B3A4D00262F1E /* client */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CB5DD1B7B3B1F00262F1E /* ServiceClient.h */,
+				BB3CB5DE1B7B3B1F00262F1E /* ServiceClient.m */,
+				BB3CB5DF1B7B3B1F00262F1E /* ServiceResult.h */,
+				BB3CB5E01B7B3B1F00262F1E /* ServiceResult.m */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		BB3CB5E71B7B3B9E00262F1E /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CB5E81B7B3B9E00262F1E /* DefaultServiceLoader.h */,
+				BB3CB5E91B7B3B9E00262F1E /* DefaultServiceLoader.m */,
+				BB3CB5EA1B7B3B9E00262F1E /* ServiceLoader.h */,
+				BB3CB5EB1B7B3B9E00262F1E /* ServiceLoader.m */,
+				BB3CB5EC1B7B3B9E00262F1E /* ServiceLoaderUtil.h */,
+				BB3CB5ED1B7B3B9E00262F1E /* ServiceLoaderUtil.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		BB3CB5F51B7B4A8E00262F1E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CB5F61B7B4A8E00262F1E /* NSMutableArray+JSON.h */,
+				BB3CB5F71B7B4A8E00262F1E /* NSMutableArray+JSON.m */,
+				BB3CB5F81B7B4A8E00262F1E /* NSObject+JSON.h */,
+				BB3CB5F91B7B4A8E00262F1E /* NSObject+JSON.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +347,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3CB5E21B7B3B1F00262F1E /* ServiceResult.m in Sources */,
+				BBD6A7EE1B7C1A8F0024EA18 /* BaseBusinessWrapper.m in Sources */,
+				BB3CB5D51B7B2E3A00262F1E /* Rating.m in Sources */,
+				BB3CB5D11B7B2E3A00262F1E /* Attrs.m in Sources */,
+				BB3CB5D31B7B2E3A00262F1E /* BaseClass.m in Sources */,
 				BB3CB5A51B7B2C9000262F1E /* ViewController.m in Sources */,
 				BB3CB5A21B7B2C9000262F1E /* AppDelegate.m in Sources */,
+				BB3CB5D41B7B2E3A00262F1E /* Musics.m in Sources */,
+				BB3CB5FB1B7B4A8E00262F1E /* NSObject+JSON.m in Sources */,
+				BB3CB5EE1B7B3B9E00262F1E /* DefaultServiceLoader.m in Sources */,
+				BB3CB5EF1B7B3B9E00262F1E /* ServiceLoader.m in Sources */,
 				BB3CB59F1B7B2C9000262F1E /* main.m in Sources */,
+				BB3CB5F01B7B3B9E00262F1E /* ServiceLoaderUtil.m in Sources */,
+				BB3CB5D21B7B2E3A00262F1E /* Author.m in Sources */,
+				BB3CB5E11B7B3B1F00262F1E /* ServiceClient.m in Sources */,
+				BB3CB5D61B7B2E3A00262F1E /* Tags.m in Sources */,
+				BB3CB5FA1B7B4A8E00262F1E /* NSMutableArray+JSON.m in Sources */,
+				BB3CB5E61B7B3B8500262F1E /* NetworkConfiguration.m in Sources */,
+				BB3CB5F41B7B4A4100262F1E /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +491,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PisNetwork/PrefixHeader.pch";
 				INFOPLIST_FILE = PisNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +503,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PisNetwork/PrefixHeader.pch";
 				INFOPLIST_FILE = PisNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +564,7 @@
 				BB3CB5BE1B7B2C9000262F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB3CB5BF1B7B2C9000262F1E /* Build configuration list for PBXNativeTarget "PisNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +573,7 @@
 				BB3CB5C11B7B2C9000262F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
